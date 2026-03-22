@@ -142,8 +142,9 @@ const CostCalculator: React.FC = () => {
               </span>
             </a>
             
-            <div className="flex items-center gap-2 text-white/70 text-xs font-medium tracking-wide mt-2">
-              <span className="text-emerald-400">🛡️</span> If we don't save you 10 hours/week in 30 days, you don't pay.
+            <div className="flex items-start text-left gap-2 text-white/70 text-xs font-medium tracking-wide mt-2">
+              <span className="text-emerald-400 shrink-0 mt-0.5">🛡️</span> 
+              <span>If we don't save you at least 10 hours/week in 30 days, we'll work for free for the next months until we do that.</span>
             </div>
           </div>
         </motion.div>
